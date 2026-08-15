@@ -31,3 +31,23 @@ I have been looking through a bunch of LED options, including but not limited to
 At this point, I will take a compromise of these [tht LEDs](https://www.sparkfun.com/led-3mm-cycling-rgb-fast.html) that cycle colors and are really small. The previous hackaday article recommended hot glue on side mount leds to help spread into the pcb, but why not just use tht leds with hot glue anyways?
 
 ![concept](assets/concept1.png)
+
+# Day 3: Actual Schematic Work + Calculations
+
+8/14/2026 - 1hr 
+
+I plan to make the pcb small ish, like the dimensions of a standard sticky/post note (71x71mm)
+
+Each LED would take a 5.5mm square, excluding the legs which would make it 5.5x~8mm total for each cube that is lit up on my mosaic.
+
+![ledfootprint](assets/ledfootprint.png)
+
+The mosaic itself would not actually be fully filled with LEDs, but have some randomness in different sections to help fit some extra components. 
+
+PCB surface area: 5041 = 71^2
+
+LED footprint: 44 = 5.5*8
+
+Not allocating the entire board for leds: 5041/5 = 1008.2 surface area left
+
+1008/44 = ~22 LEDs that I can fit into spots in my mosaic
