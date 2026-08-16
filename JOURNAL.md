@@ -51,3 +51,18 @@ LED footprint: 44 = 5.5*8
 Not allocating the entire board for leds: 5041/5 = 1008.2 surface area left
 
 1008/44 = ~22 LEDs that I can fit into spots in my mosaic
+
+
+# Day 4: Polishing Footprint, Starting PCB Layout
+
+8/15/2026 - 2hrs
+
+After finishing the schematic, I started to make the actual layout of the board.
+
+The 3d model for the led was kinda off, so I decided to export the step and make my own modifications to make it shorter and bent to the pcb. Also, turns out there isn't really a intuitive way to make a fill zone for f.mask to remove it, so I had to make a smd apeture and tweak its layers to go around this.
+
+![alt text](assets/thtsmdled.png)
+
+So far I kind of solidified my idea of layout but definitely have not added all the neat copper or silkscreen pours yet. The usb footprint is also borrowed from a [kicad library](https://github.com/vasya-zh/PCB-Edge-USB-connector-KiCad-library/tree/main), but requires the pcb to be 2.0mm thick. 
+
+![alt text](assets/pcbeditor.png)
