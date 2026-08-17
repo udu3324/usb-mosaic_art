@@ -66,3 +66,16 @@ The 3d model for the led was kinda off, so I decided to export the step and make
 So far I kind of solidified my idea of layout but definitely have not added all the neat copper or silkscreen pours yet. The usb footprint is also borrowed from a [kicad library](https://github.com/vasya-zh/PCB-Edge-USB-connector-KiCad-library/tree/main), but requires the pcb to be 2.0mm thick. 
 
 ![alt text](assets/pcbeditor.png)
+
+
+# Day 5: Continuing PCB Layout
+
+8/16/2026 - 1hr
+
+I continued to work on my mosaic and what it would look like. Another footprint with a pad had to be made as the PCB editor doesn't allow them to be added individually.
+
+![alt text](assets/pcbpreview.png)
+
+The three part pcb cutout was sketched out and will be put somewhere around the main pcb on mouse bites. 
+![alt text](assets/standsketch.png)
+
