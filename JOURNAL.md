@@ -1,4 +1,4 @@
-# Day 1: The Sketch
+# Entry 1: The Sketch
 
 8/12/2026 - 15-30 minutes (post git repo creation)
 
@@ -14,7 +14,7 @@ It was something that was
 
 
 
-# Day 2: Part Identification and Starting Schematic
+# Entry 2: Part Identification and Starting Schematic
 
 8/13/2026 - ~1.5 hours
 
@@ -32,7 +32,7 @@ At this point, I will take a compromise of these [tht LEDs](https://www.sparkfun
 
 ![concept](assets/concept1.png)
 
-# Day 3: Actual Schematic Work + Calculations
+# Entry 3: Actual Schematic Work + Calculations
 
 8/14/2026 - 1hr 
 
@@ -53,7 +53,7 @@ Not allocating the entire board for leds: 5041/5 = 1008.2 surface area left
 1008/44 = ~22 LEDs that I can fit into spots in my mosaic
 
 
-# Day 4: Polishing Footprint, Starting PCB Layout
+# Entry 4: Polishing Footprint, Starting PCB Layout
 
 8/15/2026 - 2hrs
 
@@ -68,7 +68,7 @@ So far I kind of solidified my idea of layout but definitely have not added all 
 ![alt text](assets/pcbeditor.png)
 
 
-# Day 5: Continuing PCB Layout
+# Entry 5: Continuing PCB Layout
 
 8/16/2026 - 1hr
 
@@ -79,3 +79,13 @@ I continued to work on my mosaic and what it would look like. Another footprint 
 The three part pcb cutout was sketched out and will be put somewhere around the main pcb on mouse bites. 
 ![alt text](assets/standsketch.png)
 
+
+# Entry 6: Adding a PCB Stand Cutout
+
+8/17/2026 - 1hr
+
+To hold up the main mosaic pcb, I prototyped a stand made of paper and took some measurements for my edge cuts.
+
+Making sure to adhere to pcb fabrication tolerances, most list that they have a +-20-10% tolerance which equals to around 0.2mm of space needed. 
+
+![alt text](assets/stand-cutout.png)
