@@ -89,3 +89,14 @@ To hold up the main mosaic pcb, I prototyped a stand made of paper and took some
 Making sure to adhere to pcb fabrication tolerances, most list that they have a +-20-10% tolerance which equals to around 0.2mm of space needed. 
 
 ![alt text](assets/stand-cutout.png)
+
+
+# Entry 7: Placing and Routing
+
+8/19/2026 - 3hr
+
+It took quite a while to first decide where the resistors would go. It had to not collide with other mosaic squares, silkscreen, and the clear f.mask. 
+
+![routing](assets/routing.png)
+
+Routing was also difficult as there was no ground pour at all. Space was pretty limited but it worked out well. 
