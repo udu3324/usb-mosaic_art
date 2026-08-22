@@ -100,3 +100,16 @@ It took quite a while to first decide where the resistors would go. It had to no
 ![routing](assets/routing.png)
 
 Routing was also difficult as there was no ground pour at all. Space was pretty limited but it worked out well. 
+
+
+# Entry 8: Additions + Polishing
+
+8/21/2026 - 1 hr
+
+I added a hole extending out of my pcb to allow hooking onto keychains etc. At first i was planning to add it around the usb cutout, but that would block plugging the usb 😅
+
+![alt text](assets/holecutout.png)
+
+Kicad's DRC checker was also ran a few times to check for any errors in routing. Some popped up but were all resolved! I hope that this board doesn't radiate much rf though as there's no solid ground plane. 
+
+I contacted JLCPCB support and they unfortunately said no copper can be put on the standout part as they'll count it as more than one design. I decided to leave it blank or risk having bunch of pcb fees

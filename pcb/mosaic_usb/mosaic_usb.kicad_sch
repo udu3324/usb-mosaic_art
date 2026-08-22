@@ -1614,7 +1614,7 @@
 	)
 	(rectangle
 		(start 20.32 20.32)
-		(end 77.47 76.2)
+		(end 76.2 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -1665,20 +1665,12 @@
 		(uuid "31d2be67-2862-4f60-aa86-d75b6fedefae")
 	)
 	(no_connect
-		(at 31.75 132.08)
-		(uuid "3737eea5-f18c-46b6-96b2-416094c2f6ba")
-	)
-	(no_connect
 		(at 31.75 93.98)
 		(uuid "44d88348-d8de-4cb1-ac01-0d28f77292fe")
 	)
 	(no_connect
 		(at 31.75 119.38)
 		(uuid "65d8b93f-c6b9-4924-9ccc-68e84f9bc084")
-	)
-	(no_connect
-		(at 31.75 138.43)
-		(uuid "7394813e-d38a-4d67-96c3-f36b9b2d8092")
 	)
 	(no_connect
 		(at 31.75 125.73)
@@ -7598,85 +7590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 31.75 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bafb3db2-aced-4152-87ce-e847c7747c17")
-		(property "Reference" "TP7"
-			(at 34.29 127.5079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mosaic Cube"
-			(at 34.29 130.0479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_udu_lib:Mosaic Copper Cube"
-			(at 36.83 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 31.75 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "229acadc-49c6-4cb2-bea8-f7ada7dca662")
-		)
-		(instances
-			(project "mosaic_usb"
-				(path "/39b6eca2-17a5-4f4a-9003-524e14d0003d"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 190.5 86.36 90)
 		(unit 1)
@@ -10081,85 +9994,6 @@
 			(project "mosaic_usb"
 				(path "/39b6eca2-17a5-4f4a-9003-524e14d0003d"
 					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 31.75 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f92fdb23-d081-4e2f-8928-d754ca47d18c")
-		(property "Reference" "TP8"
-			(at 34.29 133.8579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mosaic Cube"
-			(at 34.29 136.3979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_udu_lib:Mosaic Copper Cube"
-			(at 36.83 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 31.75 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b85b89e9-3ae7-491e-977b-3cff7fa739a5")
-		)
-		(instances
-			(project "mosaic_usb"
-				(path "/39b6eca2-17a5-4f4a-9003-524e14d0003d"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
